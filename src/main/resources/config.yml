@@ -24,7 +24,7 @@ database-info:
 ### GENERAL XENSYNC OPTIONS ###
 options:
   #ENABLE DEBUG MESSAGES
-  debug: false
+  debug: true
   #WHAT FIELD WOULD YOU LIKE TO USE TO CHECK USERNAME
   username-option:
     use-username: false
@@ -34,13 +34,13 @@ options:
 ### REGISTRATION INTEGRATION ###
 # Requires https://xenforo.com/community/resources/xenapi-xenforo-php-rest-api.902/
 xenforo-registration:
-  enable: false
+  enable: true
   api-location: https://www.myxenforo.com/api.php
   api-key: My.Super.Long.Secret.Key.Set.Within.The.API.File
 
 ### MEMBER PROMOTION FEATURE ###
 member-feature:
-  enable: false
+  enable: true
   require-valid-email: true
   default-group-name: default
   command-to-run: "/pex user %player% group set member"
